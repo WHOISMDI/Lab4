@@ -8,33 +8,60 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-container img {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+.photo-container2 img {
+    height: 500px;
+    width: 457px;
+    margin: auto;
+    position: flex;
+}
+
+.photo-container3 img {
+    height: 500px;
+    width: 360px;
+    margin: auto;
 }
 
 .text-container {
     flex: 1;
-    margin-right: 20px;
-    padding: 20px;
+    margin-left: 20px;
     background-color: #FF4500;
-    border-radius: 8px;
-    position: relative;
+    color: #fff;
+    border: 5px solid #FF4500;
+    border-radius: 10px;
 }
 
 .text-container2 {
     flex: 1;
-    margin-right: 20px;
-    padding: 20px;
-    background-color: #FF4500;
-    border-radius: 8px;
-    position: relative;
+    margin-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 header {
     background-color: #FF4500;
     color: #fff;
-    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: flex;
 }
 
 header h1 {
@@ -59,27 +86,60 @@ nav a {
 }
 
 .home {
-    background-image: url('background.png');
-    background-size: 100%;
-    color: #fff;
-    text-align: center;
+    background-image: url('background2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #FF4500;
+    text-align: left;
     padding: 100px 0;
 }
 
 .home2 {
-    background-image: url(animatronics.png);
-    background-size: 100%;
+    background-color: #FF4500;
     color: #fff;
     text-align: left;
     padding: 100px 0;
-    position: static;
+    position: relative;
+}
+
+.home2 h4 {
+    align-items: center;
+    text-align: center;
+}
+
+.home3 {
+    background-color: #FF4500;
+    color: #fff;
+    text-align: left;
+    padding: 100px 0;
+    position: relative;
+}
+
+.home4 {
+    background-color: #FF4500;
+    color: #fff;
+    text-align: left;
+    padding: 100px 0;
+    position: relative;
 }
 
 img {
     height: 120px;
     width: 120px;
     position: relative;
-    left: 55px;
+    left: 45px;
+}
+
+.contact-info {
+    text-align: right;
+    position: center;
+}
+
+.contact-info p {
+    margin: 0;
+    color: #fff;
+    position: center;
 }
 
 footer {
